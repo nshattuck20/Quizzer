@@ -1,0 +1,19 @@
+#Verified 
+
+Type: '2' ## User input
+Title: "DeclareArray"
+CorrectAnswer: "int[] data = {7, -1, 13, 24, 6}"
+Question: |
+ Write some code that declares an int array variable named data with elements
+ 7, -1, 13, 24, and 6.
+ 
+Hint: |
+ This question is asking for 5 specific elements in an array 
+ named data. Think of how to make a new array, but with
+ 5 specified integers at each index of the array.
+ 
+ #Citation
+QuizTitle: "BJP4 Self-Check 7.8 arrayDeclarationSyntax2(Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter7/s8-arrayDeclarationSyntax2l"
+ 

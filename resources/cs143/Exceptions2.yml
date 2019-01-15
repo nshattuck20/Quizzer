@@ -1,0 +1,24 @@
+Type: '1' #Multiple Choice
+CorrectAnswer: "1"
+
+Title: "Exceptions2"
+Answer0: "StackOverflowException"
+Answer1: "StackOverflowError"
+Answer2: "RunForeverError"
+Answer4: "None, it just runs forever"
+
+Question: |
+  If a Java main method calls itself forever in the following way
+
+  public static void main(String[] args) {
+   main(args);
+  }
+  what kind of error will be generated?
+
+HintText: null   
+HintImage: null
+
+##Citations 
+Author: "Martin Hock "
+QuizTitle: "MQ1 Intro to Exceptions Q2"
+url: "https://tacomacc.instructure.com/courses/1555474/quizzes/3292853"

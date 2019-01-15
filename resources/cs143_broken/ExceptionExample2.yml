@@ -1,0 +1,51 @@
+#### This may be tricky to parse
+## I may not use this one as it will be a pain in the ass to parse 
+Type: 1 ## Multiple Choice
+CorrectAnswer: | ## Nope...jk. These are strings
+
+ 3
+
+ 4
+
+ 1
+
+ 6
+
+ 7
+
+## These are the incorrect answers...this goes on for a while
+incorrectAnswers:
+  incorrect1: |
+
+   3
+
+   4
+
+   1
+
+   2
+
+   5
+
+   6
+
+   7
+  incorrect2: |
+   3
+
+   4
+
+   1
+
+   2
+
+   7
+
+  incorrect3: |
+   3
+
+   4
+
+   1
+
+#### THE END #################################

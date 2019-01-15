@@ -1,0 +1,17 @@
+# Verified Working
+Type: '1'
+Title: "HeaderSyntax"
+Question: |
+    Which of the following is the correct syntax for a method header with paramters??
+CorrectAnswer: '2'
+Answer0: 'public static (int x, int y) example() {'
+Answer1: 'public static example (int x, int y) {'
+Answer2: 'public static void example (int x, int y) {'
+Answer3: 'public static void example (x, y) {'
+
+HintText: null
+HintImage: null
+#Citation
+QuizTitle: "BJP4 Self-Check 3.1: methodHeaderSyntax (Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter3/s1-methodHeaderSyntax"

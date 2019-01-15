@@ -1,0 +1,35 @@
+Type: '1' ### Multiple Choice
+Title: "Big O Notation" 
+Question: |
+ Consider the following code,
+
+ public static int findBiggestProduct(int[] a) {
+  int x = 0;
+  for (int i = 0; i < a.length; i++) {
+    for (int j = i+1; j < a.length; j++) {
+      if (a[i]*a[j] > x) x = a[i]*a[j];
+    }
+  }
+  return x;
+ }
+ Which of the following is the best characterization
+ of its running behavior (e.g. T(n) = the number of
+ CPU cycles executed by running findBiggestProduct given
+ an array of n random ints) using O-notation?## A list of uncorrect answers that are strings
+HintText: |
+ Pay close attention to the for loops. They're a lot like Big O's 
+ punches here. What do you think happens as the input 
+ to "n" grows larger and larger? Also, what happens to Big O's 
+ punches as he punches these poor chaps? Do his fists faster or slower? 
+## This is a hint image, should store images in /resources folder
+HintImage: "/BigO.gif" 
+
+Answer0: "O(1)"
+Answer1: "O(N)"
+Answer2: "O(N^3)"
+Answer3: "O(n^2)"
+CorrectAnswer: "3"
+
+QuizTitle: "W18 MQ5 Introduction to Big O Notation Question 1"
+Author: "Martin Hock Winter 2018"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter7/s3-dataArray"

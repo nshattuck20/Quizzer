@@ -1,0 +1,30 @@
+Type : '3' ## Checkbox
+Title: "getGradePreconditions"
+Question: |
+ Consider a method getGrade that accepts an integer representing
+ a student's grade percentage in a course and returns that
+ student's numerical course grade:
+
+   public static double getGrade(int percentage){
+   ....
+   }
+
+   The grade can be between 0.0 (failing) and 4.0 (perfect)
+
+   Which of the following are preconditions that are appropriate
+   for this method? Check all that apply.
+Answer0: "The parameter value must be between 0.0 and 4.0"
+Answer1: "The parameter can be an integer or a real number."
+Answer2: "The parameter value must be less than or equal to 100."
+Answer3: "The parameter must be a letter grade of A, B, C or D."
+Answer4: "The paratemeter's value must be grater than or equal to 0."
+
+##This creates a list of two correct answers.
+CorrectAnswer: '[2, 4]'
+HintText: null
+HintImage: null
+
+#Citation
+Author: "Marty Stepp"
+QuizTitle: "BJP4 Self-Check 4.26: getGradePreconditions"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter4/s26-getGradePreconditions"

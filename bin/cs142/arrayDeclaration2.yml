@@ -1,0 +1,20 @@
+## VERIFIED AND WORKING
+
+Type: '1'
+Title: "ArrayDeclaration"
+Question: |
+ Which of the following choices is the correct syntax for quickly
+ declaring/initializing an array of six integers to store a
+ particular list of values?
+CorrectAnswer: '1'
+Answer0: 'int [] a = new int [6] {17, -3, 42, 5, 9, 28}'
+Answer1: 'int [] a = {17, -3, 42, 5, 9, 28}'
+Answer2: 'int [] a = new {17, -3, 42, 5,9, 28}[6]' 
+Answer3: 'int [] new = a{16, 9, 44, 12, 11, 0}'
+
+HintText: null
+HintAnswer: null
+ ## Citation
+QuizTitle: "BJP4 Self-Check 7.1: arrayDeclarationSyntax (Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter7/s1-arrayDeclarationSyntax"  

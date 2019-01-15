@@ -1,0 +1,28 @@
+## Works but correct answer returns false 
+## Verified
+Type: '2' ## User input
+Title: "MysteryNums"
+
+# This should be a string.  
+CorrectAnswer:  "15 42 10 25"
+####Question to be displayed in GUI
+Question: |
+  public class MysterNums {
+    public static void main(String[] args){
+      int x = 15; 
+      sentence(x, 42); 
+      System.out.print(" ");
+      int y = x - 5; 
+      sentence(y, x + y); 
+    }
+    public static void sentence (int num1, int num2){
+      System.out.print(num1 + " " + num2);
+    }
+  }
+HintText: null
+HintImage: null
+
+#Citation
+QuizTitle: "BJP4 Self-Check 3.2 MysteryNums"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter3/s2-MysteryNums"

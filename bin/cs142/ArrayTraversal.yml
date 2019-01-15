@@ -1,0 +1,24 @@
+## Verified
+Type: '1' ## Multiple Choice
+## Our CorrectAnswer
+CorrectAnswer: '0'
+Question: |
+ Which of the following best describes an array traversal?
+
+Title: "ArrayTraversal"
+
+Answer0: 'A sequential processing of each element in an array.'
+Answer1: 'Changing the elements from positive to negative. '
+Answer2: 'Constructing a new empty array.'
+Answer3: 'Changing the elements into opposite order.'
+Answer4: 'Deleting values from an array.'
+
+HintText: null
+HintAnswer: null
+
+##Source Citation
+QuizTitle: "BJP4 Self-Check 7.12 traversal(Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter7/s12-traversal"
+
+

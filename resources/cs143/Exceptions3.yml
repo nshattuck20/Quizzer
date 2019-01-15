@@ -1,0 +1,27 @@
+Type: '1' ##Multiple choice
+CorrectAnswer: "0"
+Title: "Exceptions3"
+
+Answer0: "NullPointerException"
+Answer1: "UninitializedVariableError" ## wtf??
+Answer2: "The program does not compile"
+Answer3: "You must construct additional pylons" ##StarCraft Reference
+Question: |
+
+ If the following Java class is saved properly, compiled, and executed
+
+  public class MyClass {
+   static int[] a;
+   public static void main(String[] args) {
+     System.out.println(a[1]);
+   }
+ }
+ what kind of throwable will be generated?
+ 
+HintText: null 
+HintImage: null 
+
+##Citations
+Author: "Martin Hock "
+QuizTitle: "MQ1 Intro to Exceptions Q2"
+url: "https://tacomacc.instructure.com/courses/1555474/quizzes/3292853"

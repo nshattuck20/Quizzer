@@ -1,0 +1,27 @@
+
+Title: "Recursive Tracing"
+Type: '2'## user input 
+
+Question: |
+ What is the output of the following lines of code
+  public void mystery(int n){
+    if (n<=1){
+      System.out.print(n);
+    }else{
+      mystery(n / 2);
+      System.out.print(", " + n);
+    }
+  }
+  
+ mystery(7) = ? 
+CorrectAnswer: "8"
+HintText: |
+ Joking aside, pay attention to the method recursive calls. As n becomes larger, 
+ what happens?  
+HintImage: "/RecursionLulz.png"
+
+##Citation ( I got this form the in class worksheet "Recursive Tracing) "
+QuizTitle: "Recursive Tracing" 
+ 
+ 
+

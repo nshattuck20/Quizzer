@@ -1,0 +1,20 @@
+
+#This is a question object, and each indented String is a type of quesiton.
+Title: "StackQueue"
+Type: '1'
+Question: | 
+ Which of the following statements are true about stacks and queues? 
+ 
+Answer0: 'A stack returns elements in the same order as they were added (first-in, first-out).'
+Answer1: 'Stacks and queues are similar to lists, but less efficient.'
+Answer2: 'The peek method allows access to the element at the bottom of a stack.'
+Answer3: 'A queue has a remove method removes and returns the element at the front of the queue.'
+
+CorrectAnswer: '3'
+
+##Citations
+QuizTitle: "BJP4 Self-Check 14.1: stackQueueStatements"
+Author: "Marty Stepp (on 2016/09/08"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s1-stackQueueStatements"
+  
+  

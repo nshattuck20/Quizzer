@@ -1,0 +1,32 @@
+Title: "StackQueue2" 
+Type: '2'
+Question: |
+  Stack s = new Stack<Integer>(); 
+  s.push(7);
+  s.push(10);
+  System.out.println(s.pop());
+  System.out.println(s.peek());
+  s.push(3);
+  s.push(5); 
+  System.out.println(s.pop());
+  System.out.println(s.isEmpty()); 
+  System.out.println(s.size());
+  System.out.println(s.peek());
+  s.push(8);
+  System.out.println(s.pop());
+  System.out.println(s.pop());
+CorrectAnswer: | ## This returns false 
+ 10
+ 7
+ 5
+ false
+ 2
+ 3
+ 8
+ 3
+HintText: "The following image will help visualize the concepts in the following question."
+HintImage: "/Stacks and Queues.jpg"
+## Citation
+QuizTitle: " BJP4 Self-Check 14.14: stackQueueUsage2"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter14/s14-stackQueueUsage2"

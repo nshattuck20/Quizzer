@@ -1,0 +1,16 @@
+# Verified 
+Type: '2'
+Title: "DataArray"
+Question: |
+ Write code that creates an array of integers named data 
+ of size 7 with the following content:
+ [27, 51, 33, -1, 101]
+CorrectAnswer: "int[] data = {27, 51, 33, -1, 101};"
+
+
+HintText: null
+HintImage: null
+##Citation
+QuizTitle: " BJP4 Self-Check 7.3: dataArray (Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter7/s3-dataArray"

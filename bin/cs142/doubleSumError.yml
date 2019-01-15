@@ -1,0 +1,19 @@
+## Verified
+Type: '1' ## Multiple Choice
+Title: "Sum Error"
+Question: |
+ The expression (0.2 + 1.2 + 2.2 + 3.2) should equal 6.8, by in Java it does not. Why?"
+
+Answer0: 'Real numbers are represented as imprecise floating-point numbers in the computer, and the limited precision led to a roundoff error.'
+Answer1: 'The programmer forgot to cast the expression to type double.'
+Answer2: 'Java has a bug in it.'
+Answer3: 'These numbers are integers in Java and return 6.'
+CorrectAnswer: '0'
+
+HintText: null
+HintAnswer: null
+
+# Citation
+QuizTitle: "BJP4 Self-Check 4.18 doubleSumError(Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter4/s18-doubleSumError"

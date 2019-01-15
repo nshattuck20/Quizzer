@@ -1,0 +1,25 @@
+--- 
+##Validated
+Question: |
+    Which of the following choices is the correct syntax for declaring
+    and inititalizing an array of ten integers?
+
+Type: '1' ##Multiple choice 
+Title: "ArrayHeader" 
+
+Answer0: 'in a[10] = new int[10];'
+Answer1: '[] int a = [10] int;'
+Answer2: 'int a[10];' 
+Answer3: 'int [10]. a = new int[10];' 
+Answer4: 'int [] a = new int [10];'
+
+HintText: null
+HintAnswer: null
+CorrectAnswer: '4'
+
+  ## Source Citation
+QuizTitle: "BJP4 Self-Check 7.1 arrayDeclarationSyntax (Practice IT)"
+Author: "Marty Stepp (on 2016/09/08)"
+url: "https://practiceit.cs.washington.edu/problem/view/bjp4/chapter7/s1-arrayDeclarationSyntax"
+
+

@@ -1,0 +1,18 @@
+Type: '1' ## Multiple Choice
+Title: "Exception Example"
+
+Question: |
+ If the following code appears in a class, it won't compile. Why?
+CorrectAnswer: '3'
+
+Answer0: "Java doesn't allow throwing Exceptions"
+Answer1: "The Exception constructior doesn't take an argument"
+Answer2: "If a java program is guaranteed to throw an exception, Java won't compile."
+Answer3: "The Exception class is checked so you must write throws Exception after (String[]args)"
+
+HintText: null 
+HintImage: null 
+##Citations
+Author: "Martin Hock "
+QuizTitle: "MQ 2Exception Example Question 1"
+url: "https://tacomacc.instructure.com/courses/1555474/quizzes/3292852"

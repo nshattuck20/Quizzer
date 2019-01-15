@@ -1,0 +1,33 @@
+---
+Type: '1'
+## This will be part of the window title
+Title: 'Collections'
+## This is the question, include a | character to keep formatting
+Question: | 
+      If Apple was added twice to Set A but added just once to Set B, Set A and Set B would be considered to be different.
+
+      The following code may give insight into the above question.
+
+      Set<String> a = new TreeSet<String>();
+      Set<String> b = new TreeSet<String>();
+      String apple = "apple";
+      a.add(apple);
+      b.add(apple);
+      b.add(apple);
+      System.out.println(b.equals(a));
+
+      // do they represent the same set?
+## These are answers to select, will be stored in ArrayList
+Answer0: 'true'
+Answer1: 'false'
+## This is the correct answer, use quotes to return as string
+CorrectAnswer: '1'
+## This is hint text
+HintText: null
+## This is a hint image, should store images in /resources folder
+HintImage: null
+#Citation
+QuizTitle: "W18 mini Quiz 21 "
+Author: "Martin Hock Winter 2018"
+url: "https://tacomacc.instructure.com/courses/1555474/quizzes/3343393"
+...
